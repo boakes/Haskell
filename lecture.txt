@@ -1,0 +1,19 @@
+if problem "simple enough" then solve directly 
+otherwise
+	a. break into simpler sub-problem
+	b. Recursion Faeries
+		solve faster sub-problems
+	c. Compose solutions into a solution of overall problem.
+
+
+QuickSort
+	If 0 or 1 persons, yay
+	Picked a pivot 
+		partitioned into < pivot and > pivot
+		recursively sorted < pivot and > pivot
+		concatenated < pivot, pivot, > pivot
+
+Hanoi n start end place
+	Hanoi (n-1) start place end
+	Hanoi (nth) start -> end
+	Hanoi (n-1) place end start
